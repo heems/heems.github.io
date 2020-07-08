@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>hey</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script>
+    function showTab(link, content) {
+      //  hide all tabs
+      var tabs = document.getElementsByClassName("tab");
+      for (i = 0; i < tabs.length; i++) {
+          tabs[i].style.display = "none";
+      }
+
+      // Get all elements with class="tablinks" and remove the class "active"
+      var tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" selectedTab", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(content).style.display = "block";
+      link.className += " selectedTab";
+    }
+
+    window.onload = function() {
+      showTab(document.getElementsByClassName('tablink')[0], 'booksWrap');
+    };
+  </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+    // Favorite toggle for books
+    $(document).ready(function() {
+      var favsToggled = false;
+      $('#favorite-toggle').click(function(){
+        if (favsToggled === false) {
+          $('ul li').hide();
+          $('ul li.loved').show();
+          $(this).text('Show All Entries');
+        } else {
+          $('ul li').show();
+          $(this).text('Show Favorites Only');
+        }
+        favsToggled = !favsToggled;
+        return false;
+     });
+    });
+  </script>
+
+</head>
+<body>
+<div id='wrap'>
+<div id='readingNav'>
+  <a href="index.html"><span id='hanghome' class='small-boxed shadowed'>←</span></a>
+  <a href="#null"><div class="small-boxed shadowed tablink" onclick="showTab(this, 'booksWrap')">Books</div></a>
+  <a href="#null"><div class="small-boxed shadowed tablink" onclick="showTab(this, 'articlesWrap')">Articles</div></a>
+  <a href="#null"><div class="small-boxed shadowed tablink" onclick="showTab(this, 'quotesWrap')">Quotes</div></a>
+</div>
+<br>
+<div id="booksWrap" class="tab boxed shadowed">
+  <h3><a href="#books">Books</a></h3>
+  <p><b>Some books I've read since ~2014 in chronological order.</b></p>
+  <a id="favorite-toggle" href="#">Show Favorites Only</a>
+  <ul class='rated'>
+    <li class='nah'><b>Breakfast with Socrates</b></li>
+    <li><b>The Electric Kool-aid Acid Test</b></li>
+    <li><b>The Dharma Bums</b></li>
+    <li class="liked"><b>Coronado High:</b> Fun, short, crime story.
+      <blockquote>Money is energy. A frictionless medium for amplifying your will.</blockquote>
+    </li>
+    <li class='loved'><b>How To Get Filthy Rich In Rising Asia:</b> Beautiful book with a unique style. People on goodreads say it's a gimmick but I thought the self-help book disguise was clever and added to theme. I loved the ~1 page run-on sentence paintings of the lives of minor/background characters. These seemed more "real" than the main characters.</li>
+    <li><b>The Stranger:</b> Boring as fuck. Am I just a pleb incapable of understanding the deeper meaning?  I get that Camus wanted to convey Meursault's emotional detachment through the frank writing, but that didn't make the book any less boring.  I didn't need to read a hundred pages of apathy to get that Meursault was a nihilist.  I also felt that the ending was a wash, I don't get what Camus was trying to convey.  Is Meursalt creating a purpose for himself by embracing the role of the stranger that everyone hates?  Does that not contradict the whole "benign indifference of the universe" thing? Why even create a role for himself? I don't know whether he's accepting meaninglessness or making some futile grasp for meaning at the end of his life. I enjoyed the straightforwardness of the Myth of Sisyphus.</li>
+    <li class='nah'><b>Ghost in the Wires:</b> I love reading hacker biographies, but this got old fast.  It's mostly about social engineering, not actual computer hacking, and the author seems like a tool.</li>
+    <li class='liked'><b>Gang Leader for a Day:</b> Compelling portrayal of the Chicago projects. Sudhir is one brave dude.</li>
+    <li class='nah'><b>Fear and Loathing in Las Vegas:</b> Funny at a few points, but I had to slog through it, and this is from someone who loves drug-fueled romps. I get that it's a critique of American culture, but that didn't make it any less boring.  Kind of like The Stranger in that sense</li>
+    <li><b>Everything Matters:</b> A big page turner and a good read, but I felt the question of <it>why</it> everything actually matters was never really answered. The protagonist just kind of suddenly started believing everything mattered through some internal conflict resolution not presented to the reader. I'm left still not thinking anything matters.</li>
+    <li><b>Lolita</b></li>
+    <li><b>Hard Boiled Wonderland and the End of the World</b></li>
+    <li class='liked'><b>Downtown Owl</b></li>
+    <li><b>Moth Smoke</b></li>
+    <li class='liked'><b>Crime and Punishment</b></li>
+    <li><b>Deep Work: Rules for Focused Success in a Distracted World</b></li>
+    <li><b>One More Thing</b></li>
+    <li class='liked'><b>Consider the Lobster</b></li>
+    <li class='loved'><b>Taipei (Tao Lin):</b> I have a little Tao Lin fan page over <a href='taolin.html'>here</a>.</li>
+    <li><b>On the Road</b></li>
+    <li><b class='loved'>Hillbilly Elegy</b></li>
+    <li class='liked'><b>Bed (<a href="taolin.html">Tao Lin</a>)</b></li>
+    <li class='liked'><b>One Year A Bike:</b> Beautiful design, photography, and print. The story was inspiring at first, but became tedious and repitive. Like it'd just be, "Day 203: Still on my bike. In a desert for another 300 miles. This is pretty shitty."</li>
+    <li class='liked'><b>Obey: Supply and Demand</b></li>
+    <li class='nah'><b>The Bell Jar</b></li>
+    <li class='loved'><b>The Everything Store</b></li>
+    <li class='liked'><b>How Information Grows:</b> Loved the first few chapters, but while Hidalgo is a great teacher, the writing felt awkward and there was so much valueless reptition the book could've been compressed into a fourth of the size.</li>
+    <li><b>The Brief Wondrous Life of Oscar Wao</b></li>
+    <li class='loved'><b>Trip <a href="taolin.html">(Tao Lin)</a>: </b>I came into this book a hyper-rationalist/skeptic, I hadn't yet begun to <a href="http://scholars-stage.blogspot.com/2018/08/tradition-is-smarter-than-you-are.html">respect tradition</a>. But, because I respect and relate to Tao Lin more than any other author, I approached the conspiracies and health topics discussed in the book, topics I normally dismiss on sight, with a radically open mind, and the book changed my worldview more than anything else I had read before, making me confront deep-seated biases and conditioning, mental traps I naively believed I was immune from, and putting me on a path towards happiness and comfort. I no longer think New Age Hippie Bullshit is all bullshit. 
+    <p>
+    I'd already read a lot about psychedelics a few years prior to reading this book, but if you're new to the literature, I haven't seen descriptions better than Lin's. He's is a master at observing his own mind. A few chapters read like a literary Erowid.</p>
+    </li>
+    <li class='liked'><b>Tulsa (Larry Clark): </b>Got me interested in photo books.</li>
+    <li class='loved'><b>Freedom (Jonathan Franzen): </b>This book has the best dialogue and characters I've ever read. The characters felt real and close, like people I've known. My emotions for them had concrete, real life targets, doubling my emotional investment in the story.
+    <p>Only con were the boring as fuck, self-indulgent descriptions of various bird species.</p></li>
+    <li class='nah'><b>Microserfs</b></li>
+    <li><b>All the Sad Young Literary Men</b></li>
+    <li class='loved'><b>Inadequate Equilibria: </b>Insightful with fun abstractions and thought experiments while still being incredibly practical. I love Yudkowsky explanations, especially his dialectics. He's the best author I've read at anticipating counter-arguments.</li>
+    <li><b>The Death of Cool: </b>McInnes seems like a shitty person but the early years of his life and the story behind Vice make a fun and motivating read.</li>
+    <li class='liked'><b>Alchemy of Herbs</b></li>
+    <li class='liked'><b>Ayurveda Lifestyle Wisdom</b></li>
+    <li class='loved'><b>Antifragile</b></li>
+    <!-- ADD QUOTES FROM HERE -->
+    <li class='liked'><b>Cosmic Trigger</b>: <a href="https://blog.karthiksthings.com/posts/cosmic-trigger-robert-anton-wilson-notes/">notes here</a></li>
+    <li class='liked'><b>Textbook of Ayurveda Vol. 1 - 3</b></li>
+    <li class='loved'><b>Teach Us To Sit Still</b>: Beautiful descriptions of a wandering mind and of the the constant struggle to figure out what’s "just in your head" and what that even means.</li>
+    <li class='nah'><b>Tempo: timing, tactics and strategy in narrative-driven decision-making</b></li>
+    <li class='liked'><b>Prometheus rising </b></li>
+    <li class='nah'><b>A Visit From The Goon Squad</b></li>
+    <li class='liked'><b>Letters to a Young Poet</b></li>
+    <li class='nah'><b>Walden</b>: Really wanted to like this but it was so god damn boring.</li>
+    <li class='liked'><b>Jung: A Very Short Introduction</b></li>
+    <li><b>The Psychedelic Experience</b></li>
+    <li class='liked'><b>Be Here Now</b></li>
+    <li><b>Hippie (Paulo Coelho)</b></li>
+    <li><b>Instant Healing</b></li>
+    <li><b>Sapiens</b></li>
+    <li><b>The Japanese Art Of Forest Bathing</b></li>
+    <li class='loved'><b>The Book of Disquiet:</b>
+      The Guardian had this to say,
+      <blockquote>
+        The Book of Disquiet, made up of hundreds of short texts that constitute a sort-of narrative, is a perfect match for this drained faculty. Indeed, Pessoa mentioned in a letter to a friend that while writing it, he only had the attention for “little things”. The cause? “Depression.”
+      </blockquote>
+      And I love that about this book.
+    </li>
+    <li><b>Living with the Himalayan Masters</b></li>
+    <li class='loved'><b>Letting Go - David Hawkins:</b> The kind of book that you live with. Take in a few pages every day as a gentle reminder to let go of emotional tension.</li>
+    <li class='loved'><b>Mantra Yoga and the Primal Sound:</b> Incredible. Fundamentally changed my relationship to speech and sound. Highly recommend this to everyone, especially if you see chanting as pointless ritual.</li>
+    <li class='liked'><b>Whatever - Michel Houellebecq</b></li>
+    <li class='liked'><b>A Spiritual Journey - Ram Dass</b></li>
+    <li class='loved'><b>Body The Greatest Gadget - Sadhguru:</b> Sadhguru is my favorite youtube guru. Explains things in a succint and intellect-appeasing way. This book is a great mix of practical and spiritual lessons.</li>
+    <li class='nah'><b>Ask and It Shall Be Given:</b> Not sure why but I couldn't stand the narrator. Drawing letters with your nose because you're possessed was just too ridiculous for me, even if it actually happened, which I don't dissmiss.</li>
+    <li class='liked'><b>Synchrodestiny - Deepak Chopra:</b> Best book I've read on Law of Attraction / synchronicity type things. Accessible but deep.</li>
+    <li class='loved'><b>Mantra Yoga and Primal Sound - David Frawley</b> Amazing book on speech, the beauty of sanskrit, and why chanting is so important. </li>
+    <li class='nah'><b>Just Kids - Patti Smith</b></li>
+    <li class='loved'><b>My Year of Rest and Relaxation</b> Worried about how much I loved this. Funny, precise, relatable, one of the few fiction books I recommend everyone. Some <a href="notes/rar.txt">quotes</a></li>
+    <li class='liked'><b>Can't Hurt Me - David Goggins</b> Polar opposite of the Tao "surrender to the universe" worldview. So funny to see the insane contrast between Eastern and Western ideals.</li>
+    <li class='loved'><b>Sadhguru: More Than A Life</b> Like a spiritual Surely You're Joking Mr Feynman.</li>
+    <li class='loved'><b>Function of the Orgasm - Willhelm Reich</b> My favorite Western psychologist. Truly a genius, really underrated.</li>
+    <li class='liked'><b>Integral Healing - Sri Aurobindo & The Mother</b></li>
+    <li class='liked'><b>Himalayan Lust - Sadhguru</b></li>
+    <li class='liked'><b>Fame, Fortune, Ambition - Osho</b></li>
+
+
+
+  </ul>
+</div>
+<div id="articlesWrap" class="tab boxed shadowed">
+  <h3><a href="#articles">Articles</a></h3>
+  <p><b>My favorite articles</b>
+  <ul>
+    <li><a href="https://nplusonemag.com/issue-18/essays/jesusraves/">Jesus Raves</a></li>
+    <blockquote>
+      Right then, something happened that I wasn’t expecting, which is that I remembered what it feels like to be a Christian, or what it felt like for me. There’s a membrane between imagining God’s love as a thought experiment and experiencing it as absolute reality, and if you slip across it the entire known universe breaks open and then reorders itself to be more whole and beautiful than you thought was possible. I had forgotten. It’s a tragedy you can’t truly explain what this feels like, the safety and wonder and rest and joy and shattering humility and crazy peace, because when you feel it all you want is for everyone else to feel it too. It’s like you’ve been let in on the most magnificent secret and all you want is to bring everyone else along, because if everyone knew the secret it could solve every problem in the world. This is what Christians call, in a terrific understatement, “the Good News.” This is also called grace. Sitting in that converted bar, I got maybe seven seconds of a vivid memory of grace, and the echo alone was enough to remember why people who know the Good News do wild things to spread it: they’re filled up with a love so great it demands to be given away.
+    </blockquote>
+    <li><a href="http://www.refinethemind.com/the-beat-generation-worldview-in-kerouacs-on-the-road/">The Beat Generation Worldview in Kerouac’s On the Road</a> - Great article explaining the Beat Generation's infatuation with life.</li>
+    <li><a href="http://scholars-stage.blogspot.com/2018/08/tradition-is-smarter-than-you-are.html">Tradition is Smarter Than You Are</a> - Changed my worldview. I had very little respect for tradition before reading Trip, then this, and then Antifragile. Everything had to have a reason and a double-blind, randomized, placebo-controlled trial behind it. Now I hit up the herbalism and Ayurveda sections of alternative bookstores on the regular.</li>
+    <li><a href="http://reader-of-depressing-books.blogspot.com/2006/07/">~11,000-word post with tao lin & kevin sampsell emails & thoughts re editing</a> - Enlightening article from <a href="taolin.html">someone</a> with a sharp fundamental understanding of people, loneliness, and art.</li>
+    <blockquote>
+      if i'm ever angry at anything it's existence itself not a specific person or group of people. nothing is detached or separate from the first event that created the universe, therefore nothing can be blamed except for existence itself; you blame a person, then you have to blame their mom, then their mom's mom, so on, until the first event, after which maybe all that can be done is to learn to stop thinking or maybe kill yourself
+    </blockquote>
+    <li><a href="http://www.nytimes.com/2015/07/05/magazine/what-happens-when-a-state-is-run-by-movie-stars.html">What Happens When a State Is Run by Movie Stars?</a>
+- Great article about South India's fucked up politics.</li>
+    <li><a href="http://www.wired.co.uk/magazine/archive/2013/02/features/dangerous">Dangerous: an in-depth investigation into the life of John McAfee</a> - John McAfee is one interesting dude.</li>
+    <li><a href="http://i.stack.imgur.com/hZK0N.jpg">Great explanation of Hough Transforms</a></li>
+    <li><a href="http://opinionator.blogs.nytimes.com/2010/07/22/your-move-the-maze-of-free-will/">Your Move: The Maze of Free Will</a> - The last quote is my view on determinism and moral responsibility.
+    <blockquote>I see no necessary disjunction between having no free will (those arguments seem watertight) and assuming moral responsibility for myself. The point is ownership. I own my past, my beginnings, my perceptions. And just as I will make myself responsible if my dog or child bites someone, or my car rolls backwards down a hill and causes damage, so I take on full accountability for the little ship of my being, even if I do not have control of its course. It is this sense of being the possessor of a consciousness that makes us feel responsible for it.</blockquote></li>
+    <li><a href="http://www.unz.com/print/Forum-1928oct-00524/">The Myth of the Soul</a> - My favorite argument against immortality and the existence of a soul.  
+    <blockquote>When we fully understand the brevity of life, its fleeting joys and unavoidable pains; when we accept the facts that all men and women are approaching an inevitable doom: the consciousness of it should make us more kindly and considerate of each other. This feeling should make men and women use their best efforts to help their fellow travelers on the road, to make the path brighter and easier as we journey on. It should bring a closer kinship, a better understanding, and a deeper sympathy for the wayfarers who must live a common life and die a common death.</blockquote></li>
+    <li><a href="https://yaledailynews.com/blog/2015/03/06/geniuses-or-whatever-tom-lehman-and-ilan-zechory/">Geniuses, Or Whatever: Tom Lehman and Ilan Zechory</a> - I think the Genius founders are hilarious and this interview was inspiring.</li>
+    <li><a href="https://www.wired.com/story/xbox-underground-videogame-hackers/">The Teens Who Hacked Microsoft's Videogame Empire—And Went Too Far</a> - A gripping longform true crime read from Wired. I have a huge softspot for the genius teenage hacker trope (I think I just want to live vicariously through bad-ass, anti-establishment, computer prodigies, something I failed to be).</li>
+  </ul>
+</div>
+<div id="quotesWrap" class="tab boxed shadowed">
+  <h3><a href="#quotes">Quotes</a></h3>
+  <p><b>Quotes I've Kept</b>
+  <ul>
+    <li><blockquote>Life is not what one lived, but what one remembers and how one remembers it in order to recount it.<footer><b>— Gabriel García Márquez</b></footer></blockquote></li>
+    <li><blockquote>We have convictions only if we have studied nothing thoroughly.<footer><b>— Emil Cioran</b></footer></blockquote></li>
+    <li><blockquote>Playing away games is like taking a shit in someone else's house.<footer><b>— Anon</b></footer></blockquote></li>
+    <li><blockquote>Leisure is permissible, we understand, because it costs money; idleness is not, because it doesn’t. Leisure is focused; whatever thinking it requires is absorbed by a certain task: sinking that putt, making that cast, watching that flat-screen TV. Idleness is unconstrained, anarchic. Leisure – particularly if it involves some kind of high-priced technology – is as American as a Fourth of July barbecue.<footer><b>— Mark Slouka</b></footer></blockquote></li>
+    <li><blockquote>Am I a good person? Deep down, do I even really want to be a good person, or do I only want to seem like a good person so that people (including myself) will approve of me? Is there a difference? How do I ever actually know whether I'm bullshitting myself, morally speaking?<footer><b>— David Foster Wallace</b></footer></blockquote></li>
+  </ul>
+</div>
+</div>
+</body>
+</html>

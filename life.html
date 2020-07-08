@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en" style='--bc: #733736; --bg-color: black; --text-color: white'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>hey</title>
+  <link href="css/styles.css?v=3" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script>
+		// todo: move to shared (same code in reading.html)...
+		function showTab(link, content) {
+      //  hide all tabs
+      var tabs = document.getElementsByClassName("tab");
+      for (i = 0; i < tabs.length; i++) {
+          tabs[i].style.display = "none";
+      }
+
+			// Get all elements with class="tablinks" and remove the class "active"
+      var tablinks = document.getElementsByClassName("tablink");
+      for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" selectedTab", "");
+      }
+
+      // Show the current tab, and add an "active" class to the button that opened the tab
+      document.getElementById(content).style.display = "block";
+      link.className += " selectedTab";
+		}
+
+		window.onload = function() {
+      showTab(document.getElementsByClassName('tablink')[0], '2019');
+    };
+
+  </script>
+</head>
+<body>
+<div id='widewrap'>
+<div id='readingNav'>
+  <a href="index.html"><span class='small-boxed shadowed'>←</span></a>
+  <a href="#2019"><div onclick="showTab(this, '2019')" class="small-boxed shadowed tablink">2019</div></a>
+  <a href="#2018"><div onclick="showTab(this, '2018')" class="small-boxed shadowed tablink">2018</div></a>
+</div>
+<br>
+<div class="block boxed">
+  <p><b>pictures taken <a href="https://i.redd.it/ofa1r68f2sh01.jpg">on my phone</a></b></p>
+
+  <div id="2019" class="tab">
+		<a name="2019"></a>
+		<h2>2019</h2>
+		<p><a href="https://blog.karthiksthings.com/posts/monk-stuff/">prayed, seriously, for the first time in my life</a></p>
+		<p>went to a club sober for the first time in my life</p>
+		<p>read occult books and watched conspiracy theory documentaries while pretending to be a normal person</p>
+		<p><a href="https://wheresmyenergy.com/2020/06/16/how-disease-shaped-my-life-for-the-better/">went to chiropractors, acupuncturists, massage therapists, ayurvedic doctors, salt caves, and sensory deprivation tanks</a></p>
+		<p>went to some strange <a href="https://blog.karthik.is/posts/meowing/">"conscious events"</a></p>
+		<p>quit my programming job with no concrete plan</p>
+
+		<img class="scaled-img" src="images/life/rolling-loud.jpg"/>
+
+		<img class="scaled-img" src="images/life/domino-crane.jpg"/>
+
+		<img class="scaled-img" src="images/life/mood-ring.jpg"/>
+
+		<img class="scaled-img" src="images/life/tongue.jpg"/>
+
+		<img class="scaled-img" src="images/life/up-dj.jpg"/>
+
+		<img class="scaled-img" src="images/life/wall-climber.jpg"/>
+	</div>
+
+  <div id="2018" class="tab">
+		<a name="2018"></a>
+		<h2>2018</h2>
+		<p><a href="https://blog.karthiksthings.com/posts/it-gets-better/">felt something while writing</a></p>
+		<p>graduated. regretted the majority of my academic decisions</p>
+		<p>moved to nyc to work at facebook</p>
+		<p>earnestly lived the 9 - 5 concerts cocktails brunch weekend trips lifestyle</p>
+
+		<img class="scaled-img" src="images/life/tamales.jpg"/>
+
+		<img class="scaled-img" src="images/life/industrial-dj.jpg"/>
+
+		<img class="scaled-img" src="images/life/stadium.jpg"/>
+
+		<img class="scaled-img" src="images/life/camping.jpg"/>
+
+		<img class="scaled-img" src="images/life/spain-roof.jpg"/>
+
+		<img class="scaled-img" src="images/life/weird-rabbit-shit.jpg"/>
+
+		<img class="scaled-img" src="images/life/panther-car.jpg"/>
+	</div>		
+	<center><a href="#readingNav">top ⇧</a></center>
+
+</div>
+</div>
+</body>
+</html>

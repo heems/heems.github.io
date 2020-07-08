@@ -1,0 +1,163 @@
+$neon-blue: cyan
+$neon-green: rgba(0, 255, 0, .5)
+$bg-stop-1: rgba(0, 255, 255, 0.2)
+$bg-stop-2: rgba(0, 255, 0, .1)
+$faded_red: rgba(255, 0, 0, .1)
+$cyan_comp: rgba(255, 170, 0, .9)
+
+$alt_red: #DB2763
+$alt_green: #2AFC98
+
+$header_color: #2D2279
+$font_color: var(--text-color, black)
+
+$border-color: var(--bc, cyan)
+$bg-color: var(--bg-color, white)
+
+// $bg-stops: cyan, cyan 5px, rgba(255, 255, 255, 0) 5px, rgba(255, 255, 255, 0) 20px
+$bg-stops: $bg-stop-1, $bg-stop-1 5px, white 5px, white 20px
+
+html 
+	margin: 0
+	padding: 0
+	border: 3px solid $border-color
+	min-height: 98%
+	@media (min-width: 980px)
+		border-width: 10px 
+
+a
+	color: $font_color
+	text-shadow: 1px 1px $border-color
+
+body
+	padding-top: 3em
+	margin: 0 auto
+	height: 100%
+	font-family: monospace
+	font-size: 2em	
+	background-color: $bg-color
+	color: $font_color
+	@media (max-width: 980px)
+		font-size: 1.25em
+
+.scaled-img
+	width: 100%
+	height: auto
+	display: block
+	margin: 0 auto
+
+	@media (min-width: 980px)
+		width: auto
+		height: 100vh
+
+
+#wrap 
+	width: 90%
+	max-width: 980px
+	margin: 0 auto
+
+#widewrap
+	margin: 1vw
+
+.shadowed
+	box-shadow: 4px 4px 0px 1px $border-color
+
+.hatched
+	@extend .shadowed
+	background: repeating-linear-gradient(45deg, $bg-stops), white
+
+.hatch-back
+	@extend .shadowed
+	//background: repeating-linear-gradient(135deg, $bg-stops), white
+
+.boxed
+	/* pull out into mixin for small-boxed */
+	border: solid $font_color
+	border-width: 2px
+	display: inline-block
+	padding: 1em
+
+.block
+	display: block
+
+.small-boxed
+	border: solid $font_color
+	border-width: 2px
+	display: inline-block
+	padding: .5em
+
+.selectedTab
+	background: $bg-stop-1
+
+.headerWithBack
+	h3
+		display: inline-block
+
+#header
+	text-align: center
+	max-width: 340px
+	color: $header_color
+	display: block
+	margin: 0 auto 1em auto
+	p
+		margin-top: 1.2em // idk how to really center this2
+		font-size: 1.5em
+		text-shadow: 2px 2px $border-color
+
+div.tab
+	li
+		line-height: 1.2em
+		margin-bottom: 1em
+
+#quotesWrap
+	ul
+		list-style: none
+		blockquote
+			margin: 0 auto
+
+ul.rated
+	list-style: none
+	li
+		&:before
+			content: '\1F610' // 😐
+			display: inline-block
+			margin-right: .5em
+			font-size: .85em
+
+		&.liked:before
+			//content: '\2795' // plus
+			font-size: 1.2em
+			content: '\263A' // ☻
+			//content: '\1F60A' // 😊
+
+		&.loved:before
+			color: red
+			content: '\2764'
+
+		&.nah:before
+			//content: '\1F44E'
+			font-size: .8em
+			content: '\2639'
+
+#hanghome
+	@media (min-width: 1200px)
+		position: relative
+		left: -3em
+		margin-right: -2.3em
+
+blockquote
+	background: rgba(255, 255, 0, .2)
+	border-left: 5px solid rgba(255, 255, 0, 1)
+	padding: 0.5em 0.5em 0.5em 1em
+	line-height: 1.4em
+
+footer
+	padding-top: 1em
+
+::selection
+	background: $neon-blue
+
+::-moz-selection
+	background: $neon-blue
+
+

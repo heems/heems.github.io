@@ -1,0 +1,1411 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"size",
+				"font-size\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"pa",
+				"padding-top"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"getEle",
+				"getElementsByClassName"
+			],
+			[
+				"feed",
+				"feedbackHide"
+			],
+			[
+				"grad",
+				"gradeHide"
+			],
+			[
+				"content",
+				"content-wrapper"
+			],
+			[
+				"BUFF",
+				"BUFFER_ADDR"
+			],
+			[
+				"BU",
+				"BUFFER_SIZE"
+			],
+			[
+				"BUF",
+				"BUFFER_ADDR"
+			],
+			[
+				"injec",
+				"injectUsername"
+			],
+			[
+				"without",
+				"withoutCurr"
+			],
+			[
+				"delet",
+				"deleteCityFromDists"
+			],
+			[
+				"dele",
+				"deleteCity"
+			],
+			[
+				"path",
+				"path"
+			],
+			[
+				"crossP",
+				"crossPriceToA"
+			],
+			[
+				"forwa",
+				"forwardPriceToA"
+			],
+			[
+				"fill",
+				"fill_recurse"
+			],
+			[
+				"exp",
+				"expected_res"
+			],
+			[
+				"custom",
+				"customer_map"
+			],
+			[
+				"cust",
+				"customer_map"
+			],
+			[
+				"start",
+				"start_c"
+			],
+			[
+				"star",
+				"start_r"
+			],
+			[
+				"bday",
+				"bday_test2"
+			],
+			[
+				"today",
+				"today_test"
+			],
+			[
+				"root",
+				"root"
+			],
+			[
+				"sort",
+				"sorted_scheds"
+			],
+			[
+				"alloca",
+				"allocate"
+			],
+			[
+				"host_",
+				"host_type"
+			],
+			[
+				"host",
+				"host_type"
+			],
+			[
+				"stateme",
+				"statementSeq"
+			],
+			[
+				"state",
+				"statementSeq"
+			],
+			[
+				"ter",
+				"termNode"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2532,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/pages/index.html",
+			"settings":
+			{
+				"buffer_size": 339,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/gen.py",
+			"settings":
+			{
+				"buffer_size": 3139,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/pages/includes/posts.html",
+			"settings":
+			{
+				"buffer_size": 1490,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/css/main.css",
+			"settings":
+			{
+				"buffer_size": 4156,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "reading.html",
+			"settings":
+			{
+				"buffer_size": 19659,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/Dropbox/code/journal-analysis/templates/entry.html",
+			"settings":
+			{
+				"buffer_size": 3103,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/Dropbox/code/journal-analysis/static/styles/main.css",
+			"settings":
+			{
+				"buffer_size": 1046,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "notes/rar.txt",
+			"settings":
+			{
+				"buffer_size": 2390,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "I was both relieved and irritated when Reva showed"
+			}
+		},
+		{
+			"file": "taolin.html",
+			"settings":
+			{
+				"buffer_size": 9836,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "life.html",
+			"settings":
+			{
+				"buffer_size": 2989,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/posts/trust-grandmas.md",
+			"settings":
+			{
+				"buffer_size": 21192,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/posts/solitude.md",
+			"settings":
+			{
+				"buffer_size": 3373,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/posts/gravity.md",
+			"settings":
+			{
+				"buffer_size": 11578,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/posts/rafting.md",
+			"settings":
+			{
+				"buffer_size": 6412,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/karthik/code/heems.github.io/posts/learning-to-ask.md",
+			"settings":
+			{
+				"buffer_size": 10491,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "---"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nSublimeLinter\n-------------\n\n  SublimeLinter 4.13\n  ==================\n  \n  - @mheinzler continued his work on multi-file-linters: linters that\n    follow imports or report errors from multiple files in one go. \n  \n    Plugin authors interested in this feature should capture and report \n    `filename`, either automatically using a named group in their regex,\n    or manually when yielding a `LintMatch`.\n  \n  - @HusamIbrahim rewrote the executable lookup algorithm for `NodeLinter`. \n    We now support eslint v6, the new yarn pnp mode, lerna.\n  \n    * You need yarn v1.8 or even yarn berry for pnp mode.\n      Thanks to @arcanis who is the tech lead of yarn for\n      answering our questions and quickly merging a PR. \n  \n  - The setting 'kill_old_processes' now defaults to `True`. The setting \n    controls whether SublimeLinter actively kills processes whose results\n    are already outdated, e.g. because the view changed in the meantime. \n  \n    This should save CPU time and battery. We've been testing this for a\n    while and there doesn't seem to be a negative impact, so it's time to\n    flip the switch.\n  \n  \n  For more info: \n    https://github.com/SublimeLinter/SublimeLinter/milestone/11\n    https://github.com/SublimeLinter/SublimeLinter/compare/4.12.0...4.13.0\n\n  SublimeLinter 4.12\n  ==================\n  \n  - Improved errors tooltip:\n    Now wraps long lines\n    Easily copy the error messages to you clipboard thanks to @kylebebak 💐\n  \n  - Deprecations:\n    We've previously pushed a number of deprecation warnings,\n    those deprecations are now in full effect. Some new warnings\n    (mostly for features you shouldn't be using anyway) have been\n    added. Background info for plugin developers can be found\n    here: https://github.com/SublimeLinter/SublimeLinter/pull/1613\n    and:  https://github.com/SublimeLinter/SublimeLinter/milestone/7?closed=1\n",
+			"settings":
+			{
+				"buffer_size": 1928,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"read_only": true,
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "Packages/User/Chrome.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/ESLint/ESLint.sublime-build",
+					""
+				],
+				[
+					"Packages/JSHint/JSHint.sublime-build",
+					""
+				],
+				[
+					"Packages/User/Chrome.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/User/Chrome.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				],
+				[
+					"Packages/User/Chrome.sublime-build",
+					""
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 357.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"js",
+				"JSHint"
+			],
+			[
+				"sublimelinter",
+				"Preferences: SublimeLinter Settings"
+			],
+			[
+				"sublimelin",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"jshint",
+				"JSHint"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				":w",
+				":w - Save"
+			],
+			[
+				"boxy",
+				"Boxy Theme: Activation"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"prolog",
+				"Set Syntax: SWI-Prolog"
+			],
+			[
+				"package control",
+				"Package Control: Install Package"
+			],
+			[
+				"prettyjson",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"prettyjs",
+				"Pretty JSON: Format and Sort JSON"
+			],
+			[
+				"live",
+				"Snippet: Insert livereload.js script"
+			],
+			[
+				"livereload",
+				"LiveReload: Self test"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			]
+		],
+		"width": 430.0
+	},
+	"console":
+	{
+		"height": 153.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/karthik/Dropbox/code/web_brutalist/css/styles.sass",
+		"/home/karthik/code/h",
+		"/home/karthik/code/heems.github.io/site/index.html",
+		"/home/karthik/code/heems.github.io/posts/theres-no-time.md",
+		"/home/karthik/code/heems.github.io/posts/it-gets-better.md",
+		"/home/karthik/code/heems.github.io/posts/personal-websites.md",
+		"/home/karthik/Dropbox/code/web_brutalist/photos.html",
+		"/home/karthik/code/heems.github.io/_includes/post-footer.html",
+		"/home/karthik/code/heems.github.io/_site/assets/css/main.css",
+		"/home/karthik/code/heems.github.io/assets/css/main.scss",
+		"/home/karthik/code/heems.github.io/_layouts/single.html",
+		"/home/karthik/code/heems.github.io/_layouts/posts.html",
+		"/home/karthik/code/heems.github.io/_posts/2016-8-17-rafting.md",
+		"/home/karthik/code/heems.github.io/_posts/2019-06-01-ashram.md",
+		"/home/karthik/ayurvedapp/SearchBar.js",
+		"/home/karthik/ayurvedapp/App.js",
+		"/home/karthik/Dropbox/code/web2/about.html",
+		"/home/karthik/code/heems.github.io/_includes/footer.html",
+		"/home/karthik/code/heems.github.io/_sass/minimal-mistakes.scss",
+		"/home/karthik/Dropbox/code/web_brutalist/css/styles.css",
+		"/home/karthik/code/heems.github.io/_posts/2018-9-3-nicaragua-comfort.md",
+		"/home/karthik/Dropbox/code/drugs/static/styles/main.css",
+		"/home/karthik/Dropbox/code/drugs/templates/entry.html",
+		"/home/karthik/Dropbox/code/drugs/templates/index.html",
+		"/home/karthik/Dropbox/code/journal-analysis/static/styles/main.css",
+		"/home/karthik/Dropbox/code/journal-analysis/templates/index.html",
+		"/home/karthik/Dropbox/code/journal-analysis/templates/entry.html",
+		"/home/karthik/code/heems.github.io/_posts/2017-03-16-clean-toaster.md",
+		"/home/karthik/Dropbox/code/drugs/templates/graph.html",
+		"/home/karthik/Dropbox/code/journal-analysis/app.py",
+		"/home/karthik/code/heems.github.io/_posts/2018-9-3-ut-post-index.md",
+		"/home/karthik/code/heems.github.io/_posts/2016-12-22-alt-lit.md",
+		"/home/karthik/Dropbox/writing/UT Post Index.md",
+		"/home/karthik/Dropbox/code/web_brutalist/styles.sass",
+		"/home/karthik/Dropbox/code/ai/cs343-5-contest/teams/BaselineAgents/baselineAgents.py",
+		"/home/karthik/Dropbox/code/ai/cs343-5-contest/teams/GoatPac/GoatPac",
+		"/home/karthik/Dropbox/code/web_brutalist/styles.css",
+		"/home/karthik/Dropbox/code/ai/cs343-5-contest/teams/GoatPac/GoatPac.py",
+		"/tmp/fz3temp-2/.htaccess",
+		"/home/karthik/Dropbox/code/web2/index.html",
+		"/home/karthik/Dropbox/code/web2/styles.sass",
+		"/home/karthik/Dropbox/code/bpa/bpa-calendar/quickstart.html",
+		"/home/karthik/Dropbox/code/bpa/bpa-calendar/plswork.html",
+		"/home/karthik/Dropbox/code/web2/taolin.html",
+		"/home/karthik/code/heems.github.io/_posts/2016-10-21-nicolas-jaar.mdown",
+		"/home/karthik/Dropbox/code/bpa/chromeext/popup.js",
+		"/home/karthik/Dropbox/code/bpa/chromeext/popup.html",
+		"/home/karthik/Dropbox/code/bpa/chromeext/getPagesSource.js",
+		"/home/karthik/Dropbox/code/bpa/manifest.json",
+		"/home/karthik/Downloads/hellos.py",
+		"/home/karthik/Dropbox/code/web2/styles.css",
+		"/home/karthik/Dropbox/code/bpa/popup.html",
+		"/home/karthik/Dropbox/code/bpa/popup.js",
+		"/home/karthik/Dropbox/code/bpa/getPagesSource.js",
+		"/media/karthik/FA66-DE95/CLICK THIS.html",
+		"/home/karthik/Desktop/palantir.py",
+		"/home/karthik/code/heems.github.io/_posts/2017-5-22-horrors-websites.md",
+		"/home/karthik/code/heems.github.io/_posts/2017-5-10-insomnia.md",
+		"/home/karthik/code/heems.github.io/_posts/2017-05-28-atlantic-fidget-spinners.md",
+		"/home/karthik/Dropbox/code/ghide/manifest.json",
+		"/home/karthik/Dropbox/code/ghide/popup.js",
+		"/home/karthik/Dropbox/code/ghide/popup.html",
+		"/home/karthik/code/moreprac.py",
+		"/home/karthik/code/heems.github.io/_posts/2017-05-23-struggling-to-not-care.md",
+		"/home/karthik/.config/Typora/themes/monospace.css",
+		"/home/karthik/Dropbox/code/www.karthiksthings.com/index.html",
+		"/home/karthik/Dropbox/code/www.karthiksthings.com/about.html",
+		"/home/karthik/Dropbox/co",
+		"/home/karthik/code/heems.github.io/_posts/2016-12-19-personal-sites.md",
+		"/home/karthik/Dropbox/code/ghide/background.js",
+		"/home/karthik/Dropbox/code/ghide/content.js",
+		"/home/karthik/code/heems.github.io/_posts/2013-8-14-the-wire.md",
+		"/home/karthik/code/heems.github.io/_posts/2013-8-19-permadeath-in-video-games.md",
+		"/home/karthik/code/heems.github.io/_posts/2013-8-4-demian.md",
+		"/home/karthik/code/heems.github.io/_posts/2017-05-10-security-guard.mdown",
+		"/home/karthik/Downloads/proj2-targets/targets/target3.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit5.txt",
+		"/home/karthik/Downloads/proj2-targets/sploits/SUBMISSION-PART2.txt",
+		"/home/karthik/Dropbox/code/hider/popup.js",
+		"/home/karthik/Dropbox/code/hider/popup.html",
+		"/home/karthik/Dropbox/code/hider/manifest.json",
+		"/home/karthik/Downloads/proj2-targets/targets/target4.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit3.txt",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit5.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit3.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit2.txt",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit1.txt",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit4.txt",
+		"/home/karthik/Downloads/proj2-targets/targets/target5.c",
+		"/home/karthik/Downloads/proj2-targets/targets/tmalloc.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/shellcode.h",
+		"/home/karthik/code/heems.github.io/_drafts/hangover",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit1.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/Makefile",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit2.c",
+		"/home/karthik/Downloads/proj2-targets/sploits/sploit4.c",
+		"/home/karthik/Downloads/proj2-targets/targets/target2.c",
+		"/home/karthik/code/heems.github.io/_posts/2017-03-20-absurd-youtube.md",
+		"/home/karthik/help",
+		"/home/karthik/Downloads/proj2-targets/targets/tmalloc.h",
+		"/home/karthik/Downloads/proj2-targets/targets/target1.c",
+		"/home/karthik/code/heems.github.io/_posts/2016-11-9-walking-songs.md",
+		"/home/karthik/code/heems.github.io/_posts/2016-12-23-arguments.md",
+		"/home/karthik/Dropbox/code/netsec/p1/attack1_bonus.html",
+		"/home/karthik/code/heems.github.io/_posts/2017-02-24-generation.md",
+		"/home/karthik/code/heems.github.io/assets/less/font-awesome/icons.less",
+		"/home/karthik/code/heems.github.io/_layouts/post-index.html",
+		"/home/karthik/code/heems.github.io/_layouts/favposts.html",
+		"/home/karthik/code/heems.github.io/index.md",
+		"/home/karthik/code/heems.github.io/favposts.md",
+		"/home/karthik/code/heems.github.io/_includes/_author-bio.html",
+		"/home/karthik/code/heems.github.io/_layouts/home.html",
+		"/home/karthik/code/heems.github.io/_posts/2016-7-3-absurd-experiences.md",
+		"/home/karthik/code/heems.github.io/_layouts/post.html",
+		"/home/karthik/code/heems.github.io/posts.md",
+		"/home/karthik/code/heems.github.io/about.md",
+		"/home/karthik/code/heems.github.io/_config.yml",
+		"/home/karthik/code/heems.github.io/_layouts/page.html",
+		"/home/karthik/code/heems.github.io/sitemap.xml",
+		"/home/karthik/Dropbox/code/netsec/p1/attack3.html",
+		"/home/karthik/Dropbox/code/netsec/p1/attack2.txt",
+		"/home/karthik/Dropbox/code/netsec/p1/attack1.html",
+		"/home/karthik/Dropbox/code/netsec/p1/attack4.html",
+		"/home/karthik/code/heems.github.io/_posts/2017-03-11-meta-review-review.md",
+		"/home/karthik/code/heems.github.io/_posts/2017-02-05-no-phone.md",
+		"/home/karthik/code/heems.github.io/assets/css/main.min.css",
+		"/home/karthik/code/heems.github.io/assets/less/typography.less",
+		"/home/karthik/code/heems.github.io/_drafts/unsorted.md"
+	],
+	"find":
+	{
+		"height": 31.0
+	},
+	"find_in_files":
+	{
+		"height": 130.0,
+		"where_history":
+		[
+			"",
+			"E:",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"width",
+			"height",
+			"entry-body",
+			"images/",
+			"imagse/",
+			"images/",
+			"is hould ask",
+			"fuck",
+			"font-size",
+			"$border-color",
+			"var(--bc, $border-color)",
+			"text-shadow",
+			"neon-blue",
+			"readingNav",
+			"wrap",
+			"bookswrap",
+			"readingNav",
+			"header",
+			"jquery",
+			"300",
+			"html",
+			"dose",
+			"title",
+			"viewer.css",
+			"jquery",
+			"hatched",
+			"bg-stops",
+			"look at",
+			"wrap",
+			"blockquote",
+			"li",
+			"pre",
+			"tab boxed",
+			"boxed",
+			"boxed-elem",
+			"\\",
+			"E:",
+			"footer",
+			"articles",
+			"shouldhide",
+			"process",
+			"+",
+			"penguin of doom",
+			"gems",
+			"curr",
+			"RESET",
+			"TEST_SELECT",
+			"RESET_CURSOR",
+			"MOVE",
+			"END",
+			"def FILL",
+			"in_bounds",
+			"\"black",
+			"RENDER",
+			"color_map",
+			"curr_color",
+			"Array.fill",
+			"grid(",
+			"grid",
+			"grid(",
+			"SELECT_RECT",
+			"GRID",
+			"println",
+			"RECT(",
+			"RECT",
+			"MOVE",
+			"last_grid",
+			"SELECT_RECT",
+			"JUMP",
+			"TIMES",
+			"old_move_delta",
+			"EXISTS",
+			"move",
+			"base_url",
+			"GET",
+			"customer_map",
+			"re_27U5yELw6ytdrHziqcCE5Ttr",
+			"ch_27U5scLw6ytdrHzio6iksSLE",
+			"cus_7aOWdO54yUSmHn",
+			"GET",
+			"print",
+			"best_move",
+			"class Node(object)",
+			"Node",
+			"curr = curr[c]",
+			"numberofpaths",
+			"_",
+			"termNode",
+			"’",
+			"funcNode",
+			"integer",
+			"conditionalNode",
+			"’",
+			"base",
+			"':='",
+			"':=",
+			":=",
+			"interpret",
+			"termNode",
+			"fail",
+			"interpret",
+			"fail",
+			"interpret",
+			"psock",
+			"Mapo",
+			"Mapi",
+			"Output",
+			"mapi",
+			"line-height",
+			"books",
+			"section",
+			"\n    "
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"images/life/",
+			"tab boxed shadowed",
+			"small-boxed",
+			"boxed",
+			"/",
+			"/media/karthik/FA66-DE95",
+			"%2B",
+			"BASE_URL",
+			"replace_map",
+			"curr = curr.children[c]",
+			"'",
+			"'->'",
+			"->",
+			"OutMap",
+			"InMap",
+			"Res"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2532,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								362,
+								362
+							]
+						],
+						"settings":
+						{
+							"SL.13.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/home/karthik/code/heems.github.io/pages/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 339,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/karthik/code/heems.github.io/gen.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								359,
+								359
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1184.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/karthik/code/heems.github.io/pages/includes/posts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1490,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1068,
+								1068
+							]
+						],
+						"settings":
+						{
+							"SL.27.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/home/karthik/code/heems.github.io/css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4156,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								733,
+								733
+							]
+						],
+						"settings":
+						{
+							"SL.29.region_keys":
+							[
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1110.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "reading.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19659,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13989,
+								13989
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.15.region_keys":
+							[
+							],
+							"SL.16.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+							],
+							"SL.23.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 6121.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/home/karthik/Dropbox/code/journal-analysis/templates/entry.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2707,
+								2707
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1710.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/home/karthik/Dropbox/code/journal-analysis/static/styles/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								941,
+								941
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1170.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "notes/rar.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2390,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"auto_name": "I was both relieved and irritated when Reva showed",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "taolin.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9836,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.17.region_keys":
+							[
+							],
+							"SL.18.region_keys":
+							[
+							],
+							"SL.23.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "life.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2989,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1874,
+								1874
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+							],
+							"SL.20.region_keys":
+							[
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 635.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/home/karthik/code/heems.github.io/posts/trust-grandmas.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 21192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								374,
+								374
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/home/karthik/code/heems.github.io/posts/solitude.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3373,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3373,
+								3373
+							]
+						],
+						"settings":
+						{
+							"SL.23.region_keys":
+							[
+							],
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/home/karthik/code/heems.github.io/posts/gravity.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11578,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								220,
+								220
+							]
+						],
+						"settings":
+						{
+							"SL.30.region_keys":
+							[
+							],
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/home/karthik/code/heems.github.io/posts/rafting.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6412,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2182,
+								2182
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+							],
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/home/karthik/code/heems.github.io/posts/learning-to-ask.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10491,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"SL.23.region_keys":
+							[
+							],
+							"auto_name": "---",
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1928,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1928,
+								1928
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+							],
+							"SL.25.region_keys":
+							[
+							],
+							"auto_indent": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_width": 2,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 31.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "web_brutalist.sublime-project",
+	"replace":
+	{
+		"height": 58.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"inde",
+				"~/Dropbox/code/web_brutalist/index.html"
+			],
+			[
+				"_post",
+				"heems.github.io/_layouts/post.html"
+			],
+			[
+				"gemfile",
+				"heems.github.io/Gemfile"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 322.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
